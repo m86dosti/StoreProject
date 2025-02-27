@@ -1,0 +1,95 @@
+:root {
+  --pink: rgb(226, 71, 123);
+  --red: rgb(233, 57, 57);
+}
+/* TOP HEADER */
+.TopHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.RightHeader {
+  display: flex;
+  align-items: center;
+}
+.HeaderSupport {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.HeaderPhone {
+  line-height: 1px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.HeaderPhone p {
+  color: var(--pink);
+}
+.HeaderPhone i {
+  color: var(--pink);
+}
+.RightHeader .HeaderLogo span {
+  color: var(--pink);
+}
+/* BOTTOM HEADER */
+.BottomHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.BottomHeader .LeftHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.BottomHeader .LeftHeader i {
+  padding: 5px;
+  border-radius: 10px;
+}
+.HeaderMenu ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+/* SAERCH BOX */
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  min-width: 400px;
+  margin: 0 10px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 10px;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 80px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+.input::placeholder {
+  color: #9e9ea7;
+}
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(234, 226, 183, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 226 183 / 10%);
+}
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
